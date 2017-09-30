@@ -3,5 +3,5 @@ web:
   ports:
     - 8080:80
   volumes:
-    - ./src:./src
+    - ./code:/code
     - ./site.conf:/etc/nginx/conf.d/site.conf
